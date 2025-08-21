@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+;
+
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+body {
+  background-color: black;
+  background-image: url(../assets/background/Cyberpunk-Background.jpg)
+}
+
+/* =====HOME===== */
+header {
+  min-height: 45px;
+  display: flex;
+  gap: 800px;
+  align-items: center;
+  color: rgb(16, 161, 149);
+  font-size: medium;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.navigation a {
+  justify-content: center;
+  color: rgb(16, 161, 149);
+  font-size: 15px;
+  font-weight: bold;
+  transition: 1s;
+
+}
+
+.navigation a:hover {
+  color: white;
+}
+
+
+
+main {
+  margin-left: 150px;
+  gap: 80px;
+}
+
+
+.home-div {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 200px;
+  line-height: 35px;
+  font-size: 30px;
+  letter-spacing: 1px;
+
+
+}
+
+#greet {
+  margin-bottom: 100px;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, ;
+  font-weight: bold;
+  color: rgb(16, 161, 149);
+}
+
+.home-pic {
+  border-radius: 50%;
+  width: 600px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+
+
+}
+
+
+
+
+.hire-button {
+  background-color: rgb(16, 161, 149);
+  color: black;
+  height: 50px;
+  width: 100px;
+  margin-top: 50px;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,
+
+}
+
+.hire-button:hover {
+  opacity: 0.5;
+}
+
+.hire-button:active {
+  background-color: black;
+  color: rgb(16, 161, 149);
+}
+
+
+.dl-button {
+  background-color: rgb(16, 161, 149);
+  color: black;
+  height: 50px;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,
+}
+
+.dl-button:hover {
+  opacity: 0.5;
+}
+
+.dl-button:active {
+  background-color: black;
+  color: rgb(16, 161, 149);
+}
+
+.dl-button a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* =====ABOUT====== */
+
+.aboutdiv {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 200px;
+  line-height: 35px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+#aboutme {
+  color: rgb(16, 161, 149);
+}
+
+
+
+/* =====RESUME===== */
+.resumediv {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 200px;
+  line-height: 35px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#resume {
+  color: rgb(16, 161, 149);
+}
+
+
+
+/* ====SKILLS=== */
+.profskills {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 200px;
+  line-height: 35px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.icons-div {
+  display: flex;
+  /* gap: 10px; */
+  justify-content: center;
+}
+
+.icons-div i {
+  color: aqua;
+}
+
+#prof-skills {
+  color: rgb(16, 161, 149)
+}
+
+.other-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+
+
+.other-skills img {
+  width: 100%;
+
+}
+
+
+#con-me {
+  color: rgb(16, 161, 149);
+  margin-bottom: 0px;
+  margin-top: 200px;
+  line-height: 35px;
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* ===FOOTER=== */
+footer {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(16, 161, 149);
+}
+
+i {
+  font-size: 40px;
+  color: blueviolet;
+  margin: 80px;
+}
